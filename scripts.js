@@ -9,7 +9,7 @@ $(function () {
       $(".factory-info").fadeOut();
       factory_info_visible = false;
     } else {
-      $(".factory-info").fadeIn().css("display", "inline");
+      $(".factory-info").fadeIn().css("display", "inline-block");
       factory_info_visible = true;
     }
   });

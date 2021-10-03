@@ -10,7 +10,12 @@
 }
 
 .factory-info {
+  position: absolute;
+  width: 50%;
+  top: 0;
+  left: 0;
   display: none;
   background: white;
   border: 1px solid black;
+  padding: 20px;
 }
