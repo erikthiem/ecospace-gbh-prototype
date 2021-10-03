@@ -1,3 +1,20 @@
+body {
+  background-color: rgb(245,245,245);
+}
+
+.container {
+  margin-top: 2%;
+}
+
+.title {
+  padding-top: 3%;
+  font-size: 70pt;
+  padding-bottom: 2%;
+  background-color: white;
+  font-family: cursive;
+}
+
+
 .factory-button {
   top: 50%;
   left: 50%;
@@ -5,17 +22,18 @@
 
 .factory {
   font-size: 200%;
-  background-color:rgba(255, 255, 255, 0.6);
-  border: 1px solid red;
+  background-color:rgba(255, 255, 255, 0.8);
+  border: 3px solid red;
+  padding: 5px;
 }
 
 .factory-info {
   position: absolute;
   width: 50%;
-  top: 0;
-  left: 0;
+  top: 3%;
+  left: 3%;
   display: none;
   background: white;
-  border: 1px solid black;
+  border: 3px solid black;
   padding: 20px;
 }
